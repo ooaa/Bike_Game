@@ -1,0 +1,146 @@
+    1  Omit
+    2  git Omit
+    3  git
+    4  git config --global user.email w.i.bronowicki@gmail.com
+    5  pwd
+    6  ls
+    7  ls -l
+    8  ls
+    9  cd ..
+   10  ls
+   11  ls -1
+   12  desktop.ini
+   13  ls -l
+   14  cat desktop.ini
+   15  cd Vlad
+   16  ls
+   17  cd Desktop
+   18  ls
+   19  ls -l
+   20  pwd
+   21  ls
+   22  cs Desktop
+   23  cd Desktop
+   24  git clone https://github.com/ooaa/Bike_Game.git
+   25  ls
+   26  cd GitBikeGame
+   27  git clone https://github.com/ooaa/Bike_Game.git
+   28  pwd
+   29  history
+   30  cd Desktop/GitBikeGame
+   31  git clone https://github.com/ooaa/Bike_Game.git
+   32  git clone https://github.com/ooaa/Bike_Game.git
+   33  git fetch
+   34  git fetch https://github.com/ooaa/Bike_Game.git
+   35  git checkout -b VladsBranch
+   36  pwd
+   37  ls -l
+   38  cd Bike_Game
+   39  ls -l
+   40  ls -la
+   41  cd .git
+   42  ls -la
+   43  cd ..
+   44  fetch git
+   45  git fetch
+   46  git fetch
+   47  git pull https://github.com/ooaa/Bike_Game.git
+   48  man git
+   49  git
+   50  git push
+   51  ls -l
+   52  git push ..
+   53  git push --setupstream .. VladsBranch
+   54  git push --set-upstream .. VladsBranch
+   55  git push VladsBranch
+   56  git push
+   57  git push 
+   58  git remote add 
+   59  git merge
+   60  echo $?
+   61  git checkout master
+   62  git checkout /c/Users/Vlad/Desktop/GitBikeGame
+   63  git checkout 
+   64  git pull
+   65  git pull 
+   66  git pull https://github.com/ooaa/Bike_Game.git
+   67  git merge https://github.com/ooaa/Bike_Game.git
+   68  git push https://github.com/ooaa/Bike_Game.git
+   69  git merge VladsBranch
+   70  git push
+   71  git push origin https://github.com/ooaa/Bike_Game.git
+   72  git add .
+   73  git commit -m "Organized Files; Added .apk build"
+   74  git commit -m "Organized Files; Added .apk build"
+   75  git commit -m "Organized Files; Added .apk build"
+   76  git remote add origin https://github.com/ooaa/Bike_Game.git
+   77  git push
+   78  git merge
+   79  git hist
+   80  git checkout master
+   81  git checkout https://github.com/ooaa/Bike_Game.git
+   82  git merge VladsBranch
+   83  git status
+   84  git add
+   85  git log
+   86  git push VladsBranch
+   87  git push https://github.com/ooaa/Bike_Game.git VladsBranch
+   88  git merge master
+   89  echo $?
+   90  git merge VladsBranch
+   91  git checkout master
+   92  git checkout HEAD
+   93  git merge master
+   94  git merge VladsBranch
+   95  git commit
+   96  git push
+   97  git commit
+   98  git push -u origin VladsBranch
+   99  git merge VladsBranch
+  100  git commit
+  101  git pull origin master
+  102  git push origin VladsBranch
+  103  checkout master
+  104  git checkout master
+  105  git merge VladsBranch
+  106  git commit
+  107  git merge master
+  108  git merge VladsBranch
+  109  git merge master VladsBranch
+  110  git
+  111  git --help
+  112  git checkout master
+  113  git pull
+  114  git merge VladsBranch
+  115  git push origin master
+  116  git status
+  117  git commit -a
+  118  git aff
+  119  git add
+  120  git status
+  121  git commit -am "Organized assets folder and added androd .apk to the builds folder"
+  122  rm -f ./.git/index.lock
+  123  git commit -am "Organized assets folder and added androd .apk to the builds folder"
+  124  git status
+  125  git add -A
+  126  git commit -am "Organized assets folder and added androd .apk to the builds folder"
+  127  git status
+  128  git init
+  129  git add .
+  130  git push origin master
+  131  checkout master
+  132  git checkout master
+  133  ok
+  134  git checkout master
+  135  history
+  136  git fetch
+  137  git status
+  138  git checkout -b VladsBranch
+  139  git checkout VladsBranch
+  140  git branch VladsBranch
+  141  git checkout VladsBranch
+  142  git status
+  143  git checkout VladsBranch
+  144  history
+  145  grep 'rm' history
+  146  history > history.txt
