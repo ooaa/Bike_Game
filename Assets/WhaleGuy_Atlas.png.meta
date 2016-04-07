@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 845046e75087a834dac45d3f3bef1e6f
+timeCreated: 1458701055
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WhaleGuy_BackLeg
+    21300002: WhaleGuy_Black
+    21300004: WhaleGuy_FrontLeg
+    21300006: WhaleGuy_Green
+    21300008: WhaleGuy_Atlas_4
+    21300010: WhaleGuy_Atlas_5
+    21300012: WhaleGuy_Atlas_6
+    21300014: WhaleGuy_Atlas_7
+    21300016: WhaleGuy_Wheel
+    21300018: WhaleGuy_Green
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WhaleGuy_BackLeg
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 660
+        width: 104
+        height: 74
+      alignment: 9
+      pivot: {x: 0.20684403, y: 0.7060011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.48822, y: -1.2440796}
+        - {x: 16.48822, y: 21.75592}
+        - {x: -21.51178, y: 21.75592}
+        - {x: -21.51178, y: -15.24408}
+        - {x: 34.48822, y: -52.24408}
+        - {x: 74.48822, y: -52.24408}
+        - {x: 80.48822, y: -49.24408}
+        - {x: 81.48822, y: -43.24408}
+        - {x: 81.48822, y: -25.24408}
+    - name: WhaleGuy_Black
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 305
+        width: 474
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -168, y: -236}
+        - {x: -167, y: -239}
+        - {x: -162, y: -239}
+        - {x: -162, y: -236}
+        - {x: -165, y: -233}
+        - {x: -167, y: -233}
+      - - {x: 193, y: -2}
+        - {x: 198, y: -4}
+        - {x: 205, y: -4}
+        - {x: 208, y: -3}
+        - {x: 212, y: 0}
+        - {x: 237, y: 66}
+        - {x: 237, y: 89}
+        - {x: 236, y: 92}
+        - {x: 202, y: 91}
+        - {x: 188, y: 89}
+        - {x: 146, y: 70}
+        - {x: 131, y: 59}
+        - {x: 104, y: 105}
+        - {x: 214, y: 127}
+        - {x: 189, y: 195}
+        - {x: 30, y: 239}
+        - {x: -52, y: 239}
+        - {x: -78, y: 225}
+        - {x: -41, y: 149}
+        - {x: -119, y: 99}
+        - {x: -133, y: 26}
+        - {x: -97, y: -22}
+        - {x: -31, y: -45}
+        - {x: 5, y: 54}
+        - {x: 75, y: 28}
+        - {x: 29, y: -84}
+        - {x: -40, y: -121}
+        - {x: -159, y: -94}
+        - {x: -234, y: 11}
+        - {x: -237, y: 11}
+        - {x: -237, y: -101}
+        - {x: -176, y: -180}
+        - {x: -106, y: -239}
+        - {x: -18, y: -239}
+        - {x: 104, y: -207}
+        - {x: 145, y: -99}
+        - {x: 152, y: 37}
+    - name: WhaleGuy_FrontLeg
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 413
+        width: 79
+        height: 141
+      alignment: 9
+      pivot: {x: 0.25441036, y: 0.85382813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.90158, y: 20.61023}
+        - {x: -20.09842, y: 20.61023}
+        - {x: -20.09842, y: -70.38977}
+        - {x: -11.098419, y: -120.38977}
+        - {x: 33.90158, y: -120.38977}
+        - {x: 58.90158, y: -89.38977}
+        - {x: 58.90158, y: -40.38977}
+        - {x: 27.90158, y: 19.61023}
+    - name: WhaleGuy_Wheel
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 24
+        width: 178
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 88.5}
+        - {x: -31, y: 88.5}
+        - {x: -58, y: 82.5}
+        - {x: -88, y: 59.5}
+        - {x: -89, y: 55.5}
+        - {x: -89, y: -52.5}
+        - {x: -38, y: -88.5}
+        - {x: 42, y: -88.5}
+        - {x: 89, y: -65.5}
+        - {x: 89, y: 61.5}
+        - {x: 50, y: 80.5}
+    - name: WhaleGuy_Green
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 22
+        width: 547
+        height: 280
+      alignment: 9
+      pivot: {x: 0.48479897, y: 0.32182217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111.81497, y: 55.889793}
+        - {x: -110.18503, y: 67.88979}
+        - {x: -154.18503, y: 181.8898}
+        - {x: -163.18503, y: 187.8898}
+        - {x: -191.18503, y: 187.8898}
+        - {x: -206.18503, y: 182.8898}
+        - {x: -265.18503, y: 116.88979}
+        - {x: -265.18503, y: 30.889793}
+        - {x: -223.18503, y: -18.110207}
+        - {x: -91.18503, y: -79.11021}
+        - {x: 35.814972, y: -79.11021}
+        - {x: 124.81497, y: 14.889793}
+        - {x: 144.81497, y: 38.889793}
+        - {x: 144.81497, y: 52.889793}
+      - - {x: 275.81497, y: 129.8898}
+        - {x: 265.81497, y: 129.8898}
+        - {x: 240.81497, y: 80.88979}
+        - {x: 240.81497, y: 47.889793}
+        - {x: 255.81497, y: 47.889793}
+        - {x: 278.81497, y: 73.88979}
+        - {x: 278.81497, y: 114.88979}
+        - {x: 277.81497, y: 127.88979}
+      - - {x: 25.814972, y: 189.8898}
+        - {x: 25.814972, y: 182.8898}
+        - {x: 49.814972, y: 155.8898}
+        - {x: 57.814972, y: 155.8898}
+        - {x: 58.814972, y: 157.8898}
+        - {x: 58.814972, y: 160.8898}
+        - {x: 30.814972, y: 189.8898}
+      - - {x: 50.814972, y: 189.8898}
+        - {x: 50.814972, y: 181.8898}
+        - {x: 51.814972, y: 177.8898}
+        - {x: 60.814972, y: 157.8898}
+        - {x: 62.814972, y: 157.8898}
+        - {x: 64.81497, y: 159.8898}
+        - {x: 63.814972, y: 163.8898}
+        - {x: 55.814972, y: 189.8898}
+      - - {x: 118.81497, y: 189.8898}
+        - {x: 116.81497, y: 169.8898}
+        - {x: 116.81497, y: 162.8898}
+        - {x: 118.81497, y: 161.8898}
+        - {x: 123.81497, y: 161.8898}
+        - {x: 124.81497, y: 170.8898}
+        - {x: 124.81497, y: 189.8898}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
