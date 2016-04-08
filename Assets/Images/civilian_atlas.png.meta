@@ -19,7 +19,11 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
+<<<<<<< HEAD
     heightScale: .25
+=======
+    heightScale: 0.25
+>>>>>>> 6c264d81ec2d81a6266e66f3bb16f119b7dd420f
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -44,7 +48,11 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
+<<<<<<< HEAD
   spritePivot: {x: .5, y: .5}
+=======
+  spritePivot: {x: 0.5, y: 0.5}
+>>>>>>> 6c264d81ec2d81a6266e66f3bb16f119b7dd420f
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -60,8 +68,14 @@ TextureImporter:
         width: 48
         height: 49
       alignment: 0
+<<<<<<< HEAD
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+=======
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+>>>>>>> 6c264d81ec2d81a6266e66f3bb16f119b7dd420f
     - name: civilian_body
       rect:
         serializedVersion: 2
@@ -70,8 +84,15 @@ TextureImporter:
         width: 383
         height: 515
       alignment: 0
+<<<<<<< HEAD
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+=======
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+>>>>>>> 6c264d81ec2d81a6266e66f3bb16f119b7dd420f
   spritePackingTag: 
   userData: 
   assetBundleName: 
