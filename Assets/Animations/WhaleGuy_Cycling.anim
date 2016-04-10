@@ -12,53 +12,168 @@ AnimationClip:
   m_UseHighQualityCurve: 1
   m_RotationCurves: []
   m_CompressedRotationCurves: []
-  m_PositionCurves:
+  m_EulerCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: -.405671835, y: .00945329666, z: 0}
+        value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
-      - time: .166666672
-        value: {x: -.405671835, y: .00945329666, z: 0}
-        inSlope: {x: -.372984409, y: .271640092, z: 0}
-        outSlope: {x: -.372984409, y: .271640092, z: 0}
-        tangentMode: 0
-      - time: .333333343
-        value: {x: -.529999971, y: .100000001, z: 0}
-        inSlope: {x: 2.98023224e-08, y: -2.98023224e-08, z: 0}
-        outSlope: {x: 2.98023224e-08, y: -2.98023224e-08, z: 0}
-        tangentMode: 0
-      - time: .5
-        value: {x: -.405671835, y: .00945329666, z: 0}
-        inSlope: {x: .745968878, y: -.543280244, z: 0}
-        outSlope: {x: .745968878, y: -.543280244, z: 0}
+      - time: 0.16666667
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhaleGuy_Black
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 18.2535}
+        inSlope: {x: 0, y: 0, z: -335.5404}
+        outSlope: {x: 0, y: 0, z: -335.5404}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: 0, y: 0, z: -37.6699}
+        inSlope: {x: 0, y: 0, z: -16.716919}
+        outSlope: {x: 0, y: 0, z: -16.716919}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 0, y: 0, z: 12.6812}
+        inSlope: {x: 0, y: 0, z: 167.77019}
+        outSlope: {x: 0, y: 0, z: 167.77019}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: 0, y: 0, z: 18.2535}
+        inSlope: {x: 0, y: 0, z: 33.433804}
+        outSlope: {x: 0, y: 0, z: 33.433804}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     path: WhaleGuy_BackLeg
   - curve:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: {x: -.82967186, y: .00545334816, z: 0}
-        inSlope: {x: -.793968916, y: 1.25127983, z: 0}
-        outSlope: {x: -.793968916, y: 1.25127983, z: 0}
-        tangentMode: 0
-      - time: .166666672
-        value: {x: -.962000012, y: .214000002, z: 0}
-        inSlope: {x: .239015579, y: -.0763600469, z: 0}
-        outSlope: {x: .239015579, y: -.0763600469, z: 0}
-        tangentMode: 0
-      - time: .333333343
-        value: {x: -.75, y: -.0199999996, z: 0}
-        inSlope: {x: 1.27200007, y: -1.40399992, z: 0}
-        outSlope: {x: 1.27200007, y: -1.40399992, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhaleGuy_Green
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 136.09619}
+        outSlope: {x: 0, y: 0, z: 136.09619}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: 0, y: 0, z: 22.6827}
+        inSlope: {x: 0, y: 0, z: 87.87959}
+        outSlope: {x: 0, y: 0, z: 87.87959}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 0, y: 0, z: 29.2932}
+        inSlope: {x: 0, y: 0, z: -68.048096}
+        outSlope: {x: 0, y: 0, z: -68.048096}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: -175.7592}
+        outSlope: {x: 0, y: 0, z: -175.7592}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhaleGuy_FrontLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 231.2634, y: 0, z: 0}
+        outSlope: {x: 231.2634, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: -360}
+        outSlope: {x: 0, y: 0, z: -360}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: 0, y: 0, z: -180}
+        inSlope: {x: 0, y: 0, z: -360}
+        outSlope: {x: 0, y: 0, z: -360}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhaleGuy_Wheel
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.40567183, y: 0.009453297, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: -0.40567183, y: 0.009453297, z: 0}
+        inSlope: {x: -0.3729844, y: 0.2716401, z: 0}
+        outSlope: {x: -0.3729844, y: 0.2716401, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: -0.53, y: 0.1, z: 0}
+        inSlope: {x: 0.000000029802322, y: -0.000000029802322, z: 0}
+        outSlope: {x: 0.000000029802322, y: -0.000000029802322, z: 0}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: -0.40567183, y: 0.009453297, z: 0}
+        inSlope: {x: 0.7459689, y: -0.54328024, z: 0}
+        outSlope: {x: 0.7459689, y: -0.54328024, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: WhaleGuy_BackLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.82967186, y: 0.005453348, z: 0}
+        inSlope: {x: -0.7939689, y: 1.2512798, z: 0}
+        outSlope: {x: -0.7939689, y: 1.2512798, z: 0}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: -0.962, y: 0.214, z: 0}
+        inSlope: {x: 0.23901558, y: -0.07636005, z: 0}
+        outSlope: {x: 0.23901558, y: -0.07636005, z: 0}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: -0.75, y: -0.02, z: 0}
+        inSlope: {x: 1.2720001, y: -1.4039999, z: 0}
+        outSlope: {x: 1.2720001, y: -1.4039999, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
     path: WhaleGuy_FrontLeg
   m_ScaleCurves:
   - curve:
@@ -71,6 +186,7 @@ AnimationClip:
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     path: WhaleGuy_Wheel
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -93,6 +209,42 @@ AnimationClip:
       classID: 4
       customType: 0
       isPPtrCurve: 0
+    - path: 3464947739
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 3591658611
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 0
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2770490248
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 1299662548
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 342364893
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
     - path: 2770490248
       attribute: 3
       script: {fileID: 0}
@@ -102,11 +254,14 @@ AnimationClip:
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: .5
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
     m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
@@ -126,13 +281,14 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
+      - time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
     path: WhaleGuy_Black
     classID: 4
@@ -145,13 +301,14 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
+      - time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
     path: WhaleGuy_Black
     classID: 4
@@ -164,13 +321,14 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
+      - time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: WhaleGuy_Black
     classID: 4
@@ -183,23 +341,24 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
+      - time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .333333343
+      - time: 0.33333334
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .5
+      - time: 0.5
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
     path: WhaleGuy_BackLeg
     classID: 4
@@ -212,23 +371,24 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
+      - time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .333333343
+      - time: 0.33333334
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .5
+      - time: 0.5
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
     path: WhaleGuy_BackLeg
     classID: 4
@@ -238,26 +398,27 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: 18.2535
-        inSlope: -335.540405
-        outSlope: -335.540405
+        inSlope: -335.5404
+        outSlope: -335.5404
         tangentMode: 10
-      - time: .166666672
-        value: -37.669899
-        inSlope: -16.7169189
-        outSlope: -16.7169189
+      - time: 0.16666667
+        value: -37.6699
+        inSlope: -16.716919
+        outSlope: -16.716919
         tangentMode: 10
-      - time: .333333343
+      - time: 0.33333334
         value: 12.6812
-        inSlope: 167.770187
-        outSlope: 167.770187
+        inSlope: 167.77019
+        outSlope: 167.77019
         tangentMode: 10
-      - time: .5
+      - time: 0.5
         value: 18.2535
-        inSlope: 33.4338036
-        outSlope: 33.4338036
+        inSlope: 33.433804
+        outSlope: 33.433804
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: WhaleGuy_BackLeg
     classID: 4
@@ -272,6 +433,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
     path: WhaleGuy_Green
     classID: 4
@@ -286,6 +448,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
     path: WhaleGuy_Green
     classID: 4
@@ -300,6 +463,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: WhaleGuy_Green
     classID: 4
@@ -312,23 +476,24 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
+      - time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .333333343
+      - time: 0.33333334
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .5
+      - time: 0.5
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
     path: WhaleGuy_FrontLeg
     classID: 4
@@ -341,23 +506,24 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
+      - time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .333333343
+      - time: 0.33333334
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .5
+      - time: 0.5
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
     path: WhaleGuy_FrontLeg
     classID: 4
@@ -367,26 +533,27 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: 0
-        inSlope: 136.096191
-        outSlope: 136.096191
+        inSlope: 136.09619
+        outSlope: 136.09619
         tangentMode: 10
-      - time: .166666672
-        value: 22.6826992
-        inSlope: 87.8795929
-        outSlope: 87.8795929
+      - time: 0.16666667
+        value: 22.6827
+        inSlope: 87.87959
+        outSlope: 87.87959
         tangentMode: 10
-      - time: .333333343
-        value: 29.2931995
-        inSlope: -68.0480957
-        outSlope: -68.0480957
+      - time: 0.33333334
+        value: 29.2932
+        inSlope: -68.048096
+        outSlope: -68.048096
         tangentMode: 10
-      - time: .5
+      - time: 0.5
         value: 0
-        inSlope: -175.759201
-        outSlope: -175.759201
+        inSlope: -175.7592
+        outSlope: -175.7592
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: WhaleGuy_FrontLeg
     classID: 4
@@ -401,6 +568,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalScale.x
     path: WhaleGuy_Wheel
     classID: 4
@@ -415,6 +583,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalScale.y
     path: WhaleGuy_Wheel
     classID: 4
@@ -429,6 +598,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalScale.z
     path: WhaleGuy_Wheel
     classID: 4
@@ -437,27 +607,28 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -.405671835
+        value: -0.40567183
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
-        value: -.405671835
-        inSlope: -.372984409
-        outSlope: -.372984409
+      - time: 0.16666667
+        value: -0.40567183
+        inSlope: -0.3729844
+        outSlope: -0.3729844
         tangentMode: 10
-      - time: .333333343
-        value: -.529999971
-        inSlope: 2.98023224e-08
-        outSlope: 2.98023224e-08
+      - time: 0.33333334
+        value: -0.53
+        inSlope: 0.000000029802322
+        outSlope: 0.000000029802322
         tangentMode: 10
-      - time: .5
-        value: -.405671835
-        inSlope: .745968878
-        outSlope: .745968878
+      - time: 0.5
+        value: -0.40567183
+        inSlope: 0.7459689
+        outSlope: 0.7459689
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalPosition.x
     path: WhaleGuy_BackLeg
     classID: 4
@@ -466,27 +637,28 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .00945329666
+        value: 0.009453297
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
-        value: .00945329666
-        inSlope: .271640092
-        outSlope: .271640092
+      - time: 0.16666667
+        value: 0.009453297
+        inSlope: 0.2716401
+        outSlope: 0.2716401
         tangentMode: 10
-      - time: .333333343
-        value: .100000001
-        inSlope: -2.98023224e-08
-        outSlope: -2.98023224e-08
+      - time: 0.33333334
+        value: 0.1
+        inSlope: -0.000000029802322
+        outSlope: -0.000000029802322
         tangentMode: 10
-      - time: .5
-        value: .00945329666
-        inSlope: -.543280244
-        outSlope: -.543280244
+      - time: 0.5
+        value: 0.009453297
+        inSlope: -0.54328024
+        outSlope: -0.54328024
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalPosition.y
     path: WhaleGuy_BackLeg
     classID: 4
@@ -499,23 +671,24 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
+      - time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .333333343
+      - time: 0.33333334
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .5
+      - time: 0.5
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalPosition.z
     path: WhaleGuy_BackLeg
     classID: 4
@@ -524,22 +697,23 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: -.82967186
-        inSlope: -.793968916
-        outSlope: -.793968916
+        value: -0.82967186
+        inSlope: -0.7939689
+        outSlope: -0.7939689
         tangentMode: 10
-      - time: .166666672
-        value: -.962000012
-        inSlope: .239015579
-        outSlope: .239015579
+      - time: 0.16666667
+        value: -0.962
+        inSlope: 0.23901558
+        outSlope: 0.23901558
         tangentMode: 10
-      - time: .333333343
-        value: -.75
-        inSlope: 1.27200007
-        outSlope: 1.27200007
+      - time: 0.33333334
+        value: -0.75
+        inSlope: 1.2720001
+        outSlope: 1.2720001
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalPosition.x
     path: WhaleGuy_FrontLeg
     classID: 4
@@ -548,22 +722,23 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: .00545334816
-        inSlope: 1.25127983
-        outSlope: 1.25127983
+        value: 0.005453348
+        inSlope: 1.2512798
+        outSlope: 1.2512798
         tangentMode: 10
-      - time: .166666672
-        value: .214000002
-        inSlope: -.0763600469
-        outSlope: -.0763600469
+      - time: 0.16666667
+        value: 0.214
+        inSlope: -0.07636005
+        outSlope: -0.07636005
         tangentMode: 10
-      - time: .333333343
-        value: -.0199999996
-        inSlope: -1.40399992
-        outSlope: -1.40399992
+      - time: 0.33333334
+        value: -0.02
+        inSlope: -1.4039999
+        outSlope: -1.4039999
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalPosition.y
     path: WhaleGuy_FrontLeg
     classID: 4
@@ -576,18 +751,19 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .166666672
+      - time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .333333343
+      - time: 0.33333334
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalPosition.z
     path: WhaleGuy_FrontLeg
     classID: 4
@@ -597,11 +773,12 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: 0
-        inSlope: 231.263397
-        outSlope: 231.263397
+        inSlope: 231.2634
+        outSlope: 231.2634
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
     path: 
     classID: 4
@@ -616,6 +793,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
     path: 
     classID: 4
@@ -625,11 +803,12 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: 0
-        inSlope: 11.4821987
-        outSlope: 11.4821987
+        inSlope: 11.482199
+        outSlope: 11.482199
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: 
     classID: 4
@@ -642,13 +821,14 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .5
+      - time: 0.5
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
     path: WhaleGuy_Wheel
     classID: 4
@@ -661,13 +841,14 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: .5
+      - time: 0.5
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
     path: WhaleGuy_Wheel
     classID: 4
@@ -680,13 +861,14 @@ AnimationClip:
         inSlope: -360
         outSlope: -360
         tangentMode: 10
-      - time: .5
+      - time: 0.5
         value: -180
         inSlope: -360
         outSlope: -360
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: WhaleGuy_Wheel
     classID: 4
@@ -697,6 +879,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: WhaleGuy_FrontLeg
     classID: 4
@@ -706,6 +889,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: WhaleGuy_FrontLeg
     classID: 4
@@ -715,6 +899,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: WhaleGuy_FrontLeg
     classID: 4
@@ -724,6 +909,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: 
     classID: 4
@@ -733,6 +919,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: 
     classID: 4
@@ -742,6 +929,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: 
     classID: 4
@@ -751,6 +939,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: WhaleGuy_BackLeg
     classID: 4
@@ -760,6 +949,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: WhaleGuy_BackLeg
     classID: 4
@@ -769,6 +959,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: WhaleGuy_BackLeg
     classID: 4
@@ -778,6 +969,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: WhaleGuy_Green
     classID: 4
@@ -787,6 +979,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: WhaleGuy_Green
     classID: 4
@@ -796,6 +989,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: WhaleGuy_Green
     classID: 4
@@ -805,6 +999,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: WhaleGuy_Black
     classID: 4
@@ -814,6 +1009,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: WhaleGuy_Black
     classID: 4
@@ -823,6 +1019,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: WhaleGuy_Black
     classID: 4
@@ -832,6 +1029,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: WhaleGuy_Wheel
     classID: 4
@@ -841,6 +1039,7 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: WhaleGuy_Wheel
     classID: 4
@@ -850,11 +1049,12 @@ AnimationClip:
       m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: WhaleGuy_Wheel
     classID: 4
     script: {fileID: 0}
-  m_HasGenericRootTransform: 0
+  m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events: []
