@@ -22,8 +22,10 @@ public class Player_Jump : MonoBehaviour {
             if(Physics.Raycast(ray,out hit, touchInputMask)){
                 //GameObject touched = hit.transform.gameObject;
                 Debug.Log(hit);
-                this.GetComponent<Rigidbody>().AddForce(0.0f, 10.0f, 0.0f);
-                
+                if (touch.phase == TouchPhase.Began)
+                {
+                    this.GetComponent<Rigidbody>().AddForce(0.0f, 100.0f, 0.0f);
+                }
             }
         }
         
