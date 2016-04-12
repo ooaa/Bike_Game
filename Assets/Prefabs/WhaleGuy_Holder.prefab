@@ -630,7 +630,7 @@ MonoBehaviour:
         customNames:
         - 
         actionEnabled: 01
-        actionIsOpen: 00
+        actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: 3a4cad05
         unityObjectParams:
@@ -644,7 +644,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 134324, guid: e78776207a8bef34481dfeaea415e5a9, type: 2}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
