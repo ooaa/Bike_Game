@@ -46,7 +46,7 @@ public class Menu : MonoBehaviour {
 		scoreCanvas.enabled = true;
 		HUDCanvas.enabled = false;
 
-		Time.timeScale = 1;
+		Time.timeScale = 0;
 	}
 
 	public void StartOn()
