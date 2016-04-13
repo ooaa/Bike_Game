@@ -14,7 +14,7 @@ public class Start_Menu : MonoBehaviour {
 
 	public void PlayOn()
 	{
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (1);
 	}
 
 	public void Update ()
