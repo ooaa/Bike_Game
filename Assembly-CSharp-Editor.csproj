@@ -152,6 +152,9 @@
  <Reference Include="PlayMakerEditor.zh-TW.resources">
  <HintPath>C:/Users/Connie/Documents/GitBikeGame/Assets/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
  </Reference>
+ <Reference Include="PlayMaker">
+ <HintPath>C:/Users/Connie/Documents/GitBikeGame/Assets/Scenes/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -169,9 +172,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="PlayMaker">
- <HintPath>C:/Users/Connie/Documents/GitBikeGame/Assets/Scenes/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

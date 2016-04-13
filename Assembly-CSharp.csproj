@@ -675,6 +675,7 @@
      <Compile Include="Assets\Script\Player_Distance.cs" />
      <Compile Include="Assets\Script\Player_Jump.cs" />
      <Compile Include="Assets\Script\Player_Reset.cs" />
+     <Compile Include="Assets\Script\Start_Menu.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
      <None Include="Assets\PlayMaker\Templates\readme.txt" />
      <None Include="Assets\PlayMaker\Readme.txt" />
