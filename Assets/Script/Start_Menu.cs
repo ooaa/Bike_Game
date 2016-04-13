@@ -5,8 +5,23 @@ using UnityEngine;
 
 public class Start_Menu : MonoBehaviour {
 
-	public void PlayOn() 
+	public Canvas startCanvas;
+
+	void Start() {
+
+		startCanvas.enabled = true; 
+	}
+
+	public void PlayOn()
 	{
 		SceneManager.LoadScene (0);
 	}
+
+	public void Update ()
+	{
+		if (Input.GetKeyDown (KeyCode.G)) {
+			SceneManager.LoadScene ("Level_1");
+		}
+	}
+
 }
