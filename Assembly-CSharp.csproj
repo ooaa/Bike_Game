@@ -671,6 +671,7 @@
      <Compile Include="Assets\PlayMaker\Include\iTweenFSMEvents.cs" />
      <Compile Include="Assets\PlayMaker\UpdateHelper.cs" />
      <Compile Include="Assets\Script\Camera_Follow_Player.cs" />
+     <Compile Include="Assets\Script\Menu.cs" />
      <Compile Include="Assets\Script\Player_Distance.cs" />
      <Compile Include="Assets\Script\Player_Jump.cs" />
      <Compile Include="Assets\Script\Player_Reset.cs" />
@@ -690,7 +691,7 @@
  <HintPath>C:/Users/Connie/Documents/GitBikeGame/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
  </Reference>
  <Reference Include="PlayMaker">
- <HintPath>C:/Users/Connie/Documents/GitBikeGame/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>C:/Users/Connie/Documents/GitBikeGame/Assets/Scenes/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
