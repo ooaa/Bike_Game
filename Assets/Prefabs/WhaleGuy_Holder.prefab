@@ -95,6 +95,7 @@ GameObject:
   - 114: {fileID: 11465158}
   - 114: {fileID: 11400964}
   - 114: {fileID: 11441220}
+  - 95: {fileID: 9525988}
   m_Layer: 2
   m_Name: WhaleGuy_Holder
   m_TagString: Player
@@ -312,6 +313,23 @@ CircleCollider2D:
   m_Offset: {x: -0.1, y: 0.1}
   serializedVersion: 2
   m_Radius: 2.26
+--- !u!95 &9525988
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188550}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!95 &9576668
 Animator:
   serializedVersion: 3
@@ -886,7 +904,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 55.921875
+        x: 71.921875
         y: 164.60938
         width: 100
         height: 32
@@ -904,13 +922,14 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.GetKeyDown
         - HutongGames.PlayMaker.Actions.AddForce2d
         - HutongGames.PlayMaker.Actions.Translate
         - HutongGames.PlayMaker.Actions.SetGameObject
+        - HutongGames.PlayMaker.Actions.GetKeyDown
         - HutongGames.PlayMaker.Actions.GetAxis
         - HutongGames.PlayMaker.Actions.SetVelocity2d
         - HutongGames.PlayMaker.Actions.TouchEvent
+        - HutongGames.PlayMaker.Actions.SetAnimatorTrigger
         customNames:
         - 
         - 
@@ -919,10 +938,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 01010101010101
-        actionStartIndex: 00000000030000000a00000014000000170000001b00000020000000
-        actionHashCodes: ff77a90455645004b03274004d51cf043fb24c03efa8d304fdfb3a02
+        - 
+        actionEnabled: 0101010101010100
+        actionIsOpen: 0000000000000001
+        actionStartIndex: 00000000070000001100000014000000170000001b0000002000000024000000
+        actionHashCodes: 55645004b03274004d51cf04ff77a9043fb24c03efa8d304fdfb3a029bd6f801
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -962,6 +982,14 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -975,6 +1003,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Horizontal
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Jump_Button
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1092,16 +1126,13 @@ MonoBehaviour:
         stringParams:
         - PressJump
         - PressJump
-        byteData: 2000000000010000000101000000010100000000
+        byteData: 0001000000010100000020000000010100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0700000017000000110000001400000025000000250000000f0000000f0000001c00000001000000140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000130000001300000001000000120000000f0000000f0000000100000014000000250000000f0000000f0000000100000010000000070000001700000010000000
+        paramDataType: 1400000025000000250000000f0000000f0000001c00000001000000140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000130000001300000001000000070000001700000011000000120000000f0000000f0000000100000014000000250000000f0000000f00000001000000100000000700000017000000100000001400000012000000
         paramName:
-        - key
-        - sendEvent
-        - storeResult
         - gameObject
         - atPosition
         - vector
@@ -1122,6 +1153,9 @@ MonoBehaviour:
         - variable
         - gameObject
         - everyFrame
+        - key
+        - sendEvent
+        - storeResult
         - axisName
         - multiplier
         - store
@@ -1135,14 +1169,16 @@ MonoBehaviour:
         - touchPhase
         - sendEvent
         - storeFingerId
-        paramDataPos: 00000000000000000000000000000000000000000100000000000000010000000000000004000000010000000100000002000000030000000400000005000000090000000a0000000b0000000c00000000000000010000000d0000000000000005000000060000000e000000020000000200000007000000080000000f00000000000000100000000100000001000000
-        paramByteDataSize: 040000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000040000000100000001000000010000000100000000000000000000000100000000000000000000000000000001000000000000000000000000000000000000000100000000000000040000000000000000000000
+        - gameObject
+        - trigger
+        paramDataPos: 00000000000000000100000000000000010000000000000000000000010000000100000002000000030000000400000001000000050000000600000007000000080000000000000001000000090000000a00000000000000000000000000000005000000060000000e000000020000000200000007000000080000000f000000000000001000000001000000010000000300000001000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000400000001000000010000000100000001000000000000000000000001000000040000000000000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000400000000000000000000000000000000000000
     - name: Jumping
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 266.6172
+        x: 282.6172
         y: 233.85156
         width: 100
         height: 32
@@ -1202,7 +1238,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 299
+        x: 315
         y: 111.94531
         width: 116
         height: 32

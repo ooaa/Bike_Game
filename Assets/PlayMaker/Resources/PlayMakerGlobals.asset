@@ -56,3 +56,10 @@ MonoBehaviour:
   - JumpPressed
   - jump
   - addPoint
+  - Press Jump
+  - COLLISION ENTER 2D
+  - COLLISION EXIT 2D
+  - COLLISION STAY 2D
+  - TRIGGER ENTER 2D
+  - TRIGGER EXIT 2D
+  - TRIGGER STAY 2D
