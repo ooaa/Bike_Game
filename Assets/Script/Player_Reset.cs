@@ -3,6 +3,9 @@ using System.Collections;
 
 public class Player_Reset : MonoBehaviour {
 
+
+	public Canvas scoreCanvas;
+
     //player position, scene positions: background, foreground, etc
     public GameObject backgroundHolder;
     public GameObject foregroundHolder;
@@ -34,6 +37,11 @@ public class Player_Reset : MonoBehaviour {
         this.transform.position = playerStartPos;
         backgroundHolder.transform.position = backgroundStartPos;
         foregroundHolder.transform.position = foregroundStartPos;
+
+		Time.timeScale = 0;
+		scoreCanvas.enabled = true;
+	
+
     }
     
     public void fail()
