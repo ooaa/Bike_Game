@@ -195,12 +195,16 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       m_Icon: {fileID: 0}
       m_Width: 0
       m_Height: 0
 =======
       m_Icon: {fileID: 2800000, guid: 502ac840e34f63c40b4590018ca63d4a, type: 3}
+=======
+      m_Icon: {fileID: 2800000, guid: ea4502145b3f49247a2b3747422ec71f, type: 3}
+>>>>>>> Stashed changes
       m_Width: 128
       m_Height: 128
 >>>>>>> master
