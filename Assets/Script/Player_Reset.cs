@@ -34,16 +34,22 @@ public class Player_Reset : MonoBehaviour {
     
     public void reset()
     {
-        this.transform.position = playerStartPos;
-        backgroundHolder.transform.position = backgroundStartPos;
-        foregroundHolder.transform.position = foregroundStartPos;
 
 		Time.timeScale = 0;
 		scoreCanvas.enabled = true;
-	
+        //this.transform.position = playerStartPos;
+        //backgroundHolder.transform.position = backgroundStartPos;
+        //foregroundHolder.transform.position = foregroundStartPos;
+
 
     }
-    
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Civilian")
+        {
+            this.reset();
+        }
+    }
     public void fail()
     {
 

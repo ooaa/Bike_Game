@@ -9,6 +9,7 @@ TagManager:
   - Player
   - Civilian
   - New Tag
+  - PlayerInfo
   layers:
   - Default
   - TransparentFX

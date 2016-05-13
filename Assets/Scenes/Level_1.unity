@@ -363,6 +363,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camHolder: {fileID: 1782975293}
+--- !u!114 &11652244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11652233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e9cfc1d0bc45f4ab438fd1ac19fe61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sushiScore: {fileID: 885529023}
 --- !u!1001 &14310464
 Prefab:
   m_ObjectHideFlags: 0
@@ -1743,6 +1755,10 @@ Prefab:
     - target: {fileID: 173016, guid: 46d029a02b498434eb42540b1798cb7f, type: 2}
       propertyPath: m_Name
       value: Civilian (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173016, guid: 46d029a02b498434eb42540b1798cb7f, type: 2}
+      propertyPath: m_TagString
+      value: Civilian
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46d029a02b498434eb42540b1798cb7f, type: 2}
@@ -3392,6 +3408,10 @@ Prefab:
     - target: {fileID: 173016, guid: 46d029a02b498434eb42540b1798cb7f, type: 2}
       propertyPath: m_Name
       value: Civilian (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173016, guid: 46d029a02b498434eb42540b1798cb7f, type: 2}
+      propertyPath: m_TagString
+      value: Civilian
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46d029a02b498434eb42540b1798cb7f, type: 2}
@@ -6329,7 +6349,7 @@ GameObject:
   - 114: {fileID: 885529023}
   m_Layer: 5
   m_Name: Sushi_number
-  m_TagString: Untagged
+  m_TagString: PlayerInfo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6686,6 +6706,10 @@ Prefab:
     - target: {fileID: 449876, guid: 2c8b7f1c00df5b04b85da7e4b24e7545, type: 2}
       propertyPath: m_LocalPosition.y
       value: 11.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 187978, guid: 2c8b7f1c00df5b04b85da7e4b24e7545, type: 2}
+      propertyPath: m_TagString
+      value: Civilian
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c8b7f1c00df5b04b85da7e4b24e7545, type: 2}
@@ -9811,6 +9835,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6100054, guid: 7dfd8c5999307dd4fbf25d28ba1b6a6c, type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dfd8c5999307dd4fbf25d28ba1b6a6c, type: 2}
   m_IsPrefabParent: 0
@@ -11573,7 +11601,7 @@ GameObject:
   - 114: {fileID: 1663307793}
   m_Layer: 5
   m_Name: Distance_number
-  m_TagString: Untagged
+  m_TagString: PlayerInfo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
