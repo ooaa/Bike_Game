@@ -18,7 +18,7 @@ public class Camera_Follow_Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerPosition.x = this.transform.position.x;
+        playerPosition.x = this.transform.position.x - 2;
         if (this.transform.position.y > lowerY && this.transform.position.y < upperY)
         {
             playerPosition.y = this.transform.position.y;

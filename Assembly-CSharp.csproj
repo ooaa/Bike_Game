@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{96615344-6E9D-9D89-83C4-3ADB0D93AEC3}</ProjectGuid>
+    <ProjectGuid>{71822845-9889-CFCC-53A9-09C6BDA09F75}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;WWW_USE_CURL;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;WWW_USE_CURL;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -38,13 +38,79 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\PlayMaker Animator\Actions\AnimatorCrossFade.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\AnimatorInterruptMatchTarget.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\AnimatorMatchTarget.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\AnimatorPlay.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\AnimatorStartPlayback.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\AnimatorStartRecording.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\AnimatorStopPlayback.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\AnimatorStopRecording.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorApplyRootMotion.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorBody.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorBoneGameObject.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorBool.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorCullingMode.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorCurrentStateInfo.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorCurrentStateInfoIsName.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorCurrentStateInfoIsTag.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorCurrentTransitionInfo.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorCurrentTransitionInfoIsName.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorCurrentTransitionInfoIsUserName.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorDelta.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorFeetPivotActive.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorFloat.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorGravityWeight.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorHumanScale.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorIKGoal.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorInt.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorIsControlled.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorIsHuman.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorIsLayerInTransition.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorIsMatchingTarget.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorIsParameterControlledByCurve.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorLayerCount.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorLayerName.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorLayerWeight.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorLayersAffectMassCenter.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorLeftFootBottomHeight.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorNextStateInfo.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorPivot.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorPlayBackSpeed.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorPlaybackTime.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorRightFootBottomHeight.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorRoot.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorSpeed.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\GetAnimatorTarget.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\NavMeshAgentAnimatorSynchronizer.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorApplyRootMotion.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorBody.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorBool.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorCullingMode.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorFeetPivotActive.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorFloat.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorIKGoal.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorInt.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorLayerWeight.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorLayersAffectMassCenter.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorLookAt.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorPlayBackSpeed.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorPlaybackTime.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorSpeed.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorStabilizeFeet.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorTarget.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\SetAnimatorTrigger.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\Utils\AnimatorFollow.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Scripts\PlayMakerAnimatorIKProxy.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Scripts\PlayMakerAnimatorMoveProxy.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Scripts\PlayMakerAnimatorStateSynchronization.cs" />
      <Compile Include="Assets\PlayMaker Unity 2D\Actions\AddForce2d.cs" />
      <Compile Include="Assets\PlayMaker Unity 2D\Actions\AddTorque2d.cs" />
      <Compile Include="Assets\PlayMaker Unity 2D\Actions\Collision2dEvent.cs" />
@@ -683,16 +749,16 @@
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="ConditionalExpression">
- <HintPath>/Users/repair/Documents/Bike_Game/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
+ <HintPath>C:/Users/Connie/Documents/GitBikeGame/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
  </Reference>
  <Reference Include="PlayMaker">
- <HintPath>/Users/repair/Documents/Bike_Game/Assets/Scenes/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>C:/Users/Connie/Documents/GitBikeGame/Assets/Scenes/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
