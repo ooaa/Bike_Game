@@ -18,4 +18,8 @@ public class Player_Distance : MonoBehaviour {
         distance = (int)this.transform.position.x - start;
         distanceText.text = distance + " m";
 	}
+    public int getDistance()
+    {
+        return distance;
+    }
 }

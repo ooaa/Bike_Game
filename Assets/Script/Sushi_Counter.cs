@@ -19,6 +19,12 @@ public class Sushi_Counter : MonoBehaviour {
     {
 
     }
+
+    public int getSushi()
+    {
+        return counter;
+    }
+
     void OnTriggerEnter2D(Collider2D col) { 
         //Debug.Log(col.gameObject);
         if(col.gameObject.tag == "Sushi")

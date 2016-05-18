@@ -12,62 +12,50 @@ public class Menu : MonoBehaviour {
 	public Canvas scoreCanvas;
 	public Canvas HUDCanvas;
 
-    int currentsushi, currentdist;
-    public PlayerData pd;
-    private int start;
+    private int sushi;
+    private int distance;
+    private int distanceHighest;
+    private int sushiHighest;
+    private bool villagerHit;
+    private PlayerData pdat = new PlayerData();
 
-    void Start() {
+    
 
-        
-		pauseCanvas.enabled = false;
+    void Start()
+    {
+        sushi = GameObject.Find("WhaleGuy_Holder").GetComponent<Sushi_Counter>().getSushi();
+        distance = GameObject.Find("WhaleGuy_Holder").GetComponent<Player_Distance>().getDistance();
+        villagerHit = GameObject.Find("WhaleGuy_Holder").GetComponent<Player_Reset>().getVillagerHit();
+        pauseCanvas.enabled = false;
 		scoreCanvas.enabled = false;
 		HUDCanvas.enabled = true; 
-
 		Time.timeScale = 1;
-        
         initPlayerData();
-
 	}
 
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        //Debug.Log(col.gameObject);
-        if (col.gameObject.tag == "Sushi")
-        {
-            //Debug.Log("Sushi" + ++counter);
-            ++currentsushi;
-            //Destroy(col.gameObject);
-        }
-    }
 
     void Update()
     {
-        currentdist = (int)this.transform.position.x - start;
-       
+
     }
 
-    public void PauseOn() 
-
+    public void PauseOn()
 	{
 		pauseCanvas.enabled = true;
 		scoreCanvas.enabled = false;
 		HUDCanvas.enabled = false;
-
-		Time.timeScale = 0;
+        Time.timeScale = 0;
 	}
 
-	public void ResumeOn() 
-
+	public void ResumeOn()
 	{
 		pauseCanvas.enabled = false;
 		scoreCanvas.enabled = false;
 		HUDCanvas.enabled = true;
-
 		Time.timeScale = 1;
 	}
 
 	public void ScoreOn()
-
 	{
 		pauseCanvas.enabled = false;
 		scoreCanvas.enabled = true;
@@ -76,66 +64,63 @@ public class Menu : MonoBehaviour {
 	}
 
 	public void StartOn()
-
 	{
+        savePlayerData();
 		SceneManager.LoadScene (0);
 		Time.timeScale = 1;
 	} 
 
 	public void ReplayOn()
-
-	{
-        updatePlayerData();
-		SceneManager.LoadScene(SceneManager.GetActiveScene().name); ;
-
+    { 
+        savePlayerData();
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 		Time.timeScale = 1;
 	}
 
-    void updatePlayerData()
+    void savePlayerData()
     {
-                GameObject[] playerinfo;
-                playerinfo = GameObject.FindGameObjectsWithTag("PlayerInfo");
-        try {
-            pd.sushi += (int)currentsushi;
-            pd.distance += (int)currentdist;
-            BinaryFormatter binform = new BinaryFormatter();
-            FileStream file = File.Open(Application.persistentDataPath + "Player.dat", FileMode.Open);
-            binform.Serialize(file, pd);
-            file.Close();
-            Debug.Log("File Saved");
-        }catch(Exception e)
-        {
-            Debug.Log("Save Failed");
-            Debug.Log(e);
-        }
-
+        Debug.Log("Saving Player Data...");
+        villagerHit = GameObject.Find("WhaleGuy_Holder").GetComponent<Player_Reset>().getVillagerHit();
+        sushi = GameObject.Find("WhaleGuy_Holder").GetComponent<Sushi_Counter>().getSushi();
+        distance = GameObject.Find("WhaleGuy_Holder").GetComponent<Player_Distance>().getDistance();
+        if (villagerHit) pdat.villagers++;
+        sushiHighest = sushi;
+        distanceHighest = distance;
+        pdat.sushi += sushi;
+        pdat.distance += distance;
+        pdat.sushiHighest = (pdat.sushiHighest < sushiHighest) ? sushiHighest : pdat.sushiHighest;
+        pdat.distanceHighest = (pdat.distanceHighest < distanceHighest) ? distanceHighest : pdat.distanceHighest;
+        BinaryFormatter formatter = new BinaryFormatter();
+        FileStream save = File.Create(Application.persistentDataPath + "/Saves/player.dat");
+        formatter.Serialize(save, pdat);
+        save.Close();
+        Debug.Log("Player Data Successfully Saved!");
+        Debug.Log(pdat.toString());
     }
 
     void initPlayerData()
     {
-        Debug.Log(pd.toString());
-        if (File.Exists(Application.persistentDataPath + "/Player.dat"))
+        Debug.Log("Loading Player Data...");
+        if (!Directory.Exists(Application.persistentDataPath + "/Saves"))
         {
-            Debug.Log("File Loaded");
-            BinaryFormatter bform = new BinaryFormatter();
-            FileStream fStream = File.Open(Application.persistentDataPath + "/Player.dat", FileMode.Open);
-
-            pd = (PlayerData)bform.Deserialize(fStream);
-
-            fStream.Close();
-
-
+            Debug.Log("No File Found, Creating New File");
+            Directory.CreateDirectory(Application.persistentDataPath + "/Saves");
+            if (!File.Exists(Application.persistentDataPath + "/Saves/player.dat"))
+            {
+                File.Create(Application.persistentDataPath + "/Saves/player.dat");
+                pdat = new PlayerData();
+            }
+            Debug.Log("New Player Save Created!");
         }
         else
         {
-            FileStream f = File.Create(Application.persistentDataPath + "/Player.dat");
-            f.Close();
-            Debug.Log("New Data");
-            pd = new PlayerData();
-            pd.sushi_collected = 0;
-            pd.villiagers_hit = 0;
-            pd.distance_Travelled = 0;
-
+            Debug.Log("Loading Player Data...");
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream save = File.Open(Application.persistentDataPath + "/Saves/player.dat", FileMode.Open);
+            pdat = (PlayerData)formatter.Deserialize(save);
+            save.Close();
+            Debug.Log("Player Data Successfully Recovered!");
+            Debug.Log(pdat.toString());
         }
 
     }
