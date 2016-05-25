@@ -375,6 +375,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sushiScore: {fileID: 885529023}
+--- !u!114 &11652246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11652233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11601a927babc6547883e4a209f4155d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &14310464
 Prefab:
   m_ObjectHideFlags: 0
@@ -14256,6 +14267,38 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 0.0093825655
       objectReference: {fileID: 0}
+    - target: {fileID: 11454942, guid: 4eefc35bda9009b44a1bc3046ab060db, type: 2}
+      propertyPath: fsm.states.Array.data[0].position.x
+      value: 58.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454942, guid: 4eefc35bda9009b44a1bc3046ab060db, type: 2}
+      propertyPath: fsm.states.Array.data[0].position.y
+      value: 115.78906
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454942, guid: 4eefc35bda9009b44a1bc3046ab060db, type: 2}
+      propertyPath: fsm.states.Array.data[1].position.x
+      value: 480.83594
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454942, guid: 4eefc35bda9009b44a1bc3046ab060db, type: 2}
+      propertyPath: fsm.states.Array.data[1].position.y
+      value: 196.04688
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454942, guid: 4eefc35bda9009b44a1bc3046ab060db, type: 2}
+      propertyPath: fsm.states.Array.data[2].position.x
+      value: 100488.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 11454942, guid: 4eefc35bda9009b44a1bc3046ab060db, type: 2}
+      propertyPath: fsm.states.Array.data[2].position.y
+      value: 100104.984
+      objectReference: {fileID: 0}
+    - target: {fileID: 5886450, guid: 4eefc35bda9009b44a1bc3046ab060db, type: 2}
+      propertyPath: m_UsedByEffector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5886450, guid: 4eefc35bda9009b44a1bc3046ab060db, type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 187c78da0e0ca8d4baab0521732ca68b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4eefc35bda9009b44a1bc3046ab060db, type: 2}
   m_IsPrefabParent: 0

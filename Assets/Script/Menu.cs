@@ -77,6 +77,8 @@ public class Menu : MonoBehaviour {
 		Time.timeScale = 1;
 	}
 
+
+
     void savePlayerData()
     {
         Debug.Log("Saving Player Data...");

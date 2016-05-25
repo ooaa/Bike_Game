@@ -17,7 +17,12 @@ public class Start_Menu : MonoBehaviour {
 		SceneManager.LoadScene (1);
 	}
 
-	public void Update ()
+    public void HighScoreOn()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void Update ()
 	{
 		if (Input.GetKeyDown (KeyCode.G)) {
 			SceneManager.LoadScene ("Level_1");
