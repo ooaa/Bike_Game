@@ -5,6 +5,7 @@ using System.Collections;
 public class Player_Distance : MonoBehaviour {
 
     public Text distanceText;
+    public Text distanceTextGG;
     private int start;
     private int distance;
 
@@ -17,7 +18,8 @@ public class Player_Distance : MonoBehaviour {
 	void Update () {
         distance = (int)this.transform.position.x - start;
         distanceText.text = distance + " m";
-	}
+        distanceTextGG.text = distance + " m";
+    }
     public int getDistance()
     {
         return distance;

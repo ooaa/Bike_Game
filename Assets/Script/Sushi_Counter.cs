@@ -5,6 +5,7 @@ using System.Collections;
 public class Sushi_Counter : MonoBehaviour {
 
     public Text sushiScore;
+    public Text sushiScoreGG;
 
     private int counter = 0;
 
@@ -31,6 +32,7 @@ public class Sushi_Counter : MonoBehaviour {
         {
             //Debug.Log("Sushi" + ++counter);
             sushiScore.text = "" + ++counter;
+            sushiScoreGG.text = "" + ++counter;
             Destroy(col.gameObject);
         }
     }
