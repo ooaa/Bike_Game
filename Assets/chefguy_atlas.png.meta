@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: d9de3eb68b706994e84ce5d1dfb03bda
+timeCreated: 1464722575
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chefguy_body
+    21300002: chefguy_back_wheel
+    21300004: chefguy_front_wheel
+    21300006: chefguy_thigh
+    21300008: chefguy_shin
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chefguy_body
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.5, y: -24}
+        - {x: 63.5, y: -21}
+        - {x: 67.5, y: -16}
+        - {x: 67.5, y: 22}
+        - {x: 64.5, y: 28}
+        - {x: 32.5, y: 60}
+        - {x: -27.5, y: 60}
+        - {x: -67.5, y: 39}
+        - {x: -67.5, y: -34}
+        - {x: -61.5, y: -44}
+        - {x: -16.5, y: -60}
+        - {x: 59.5, y: -60}
+        - {x: 67.5, y: -54}
+        - {x: 67.5, y: -27}
+        - {x: 64.5, y: -25}
+        - {x: 53.5, y: -24}
+        - {x: 47.5, y: -24}
+    - name: chefguy_back_wheel
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 22.5}
+        - {x: -22.5, y: 21.5}
+        - {x: -22.5, y: -16.5}
+        - {x: -17.5, y: -22.5}
+        - {x: 17.5, y: -22.5}
+        - {x: 22.5, y: -16.5}
+        - {x: 22.5, y: 17.5}
+        - {x: 15.5, y: 22.5}
+    - name: chefguy_front_wheel
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 22.5}
+        - {x: -22, y: -22.5}
+        - {x: 15, y: -22.5}
+        - {x: 22, y: -20.5}
+        - {x: 22, y: 16.5}
+        - {x: 16, y: 22.5}
+    - name: chefguy_thigh
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 22
+        width: 20
+        height: 31
+      alignment: 9
+      pivot: {x: 0.36299285, y: 0.7749977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chefguy_shin
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 36
+        height: 21
+      alignment: 9
+      pivot: {x: 0.83829117, y: 0.70297444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
